@@ -1,0 +1,8 @@
+#!/bin/bash -e
+
+export HTTPIE_VERSION="3.0.0"
+
+export CONTAINER_REGISTRY_PUSH=1
+export CONTAINER_REGISTRY_PATH="registry-1.docker.io/conmob/httpie"
+export CONTAINER_REGISTRY_USERNAME="xxx"
+export CONTAINER_REGISTRY_PASSWORD="xxx"
